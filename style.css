@@ -1,6 +1,3 @@
-*{
-  border: solid purple;
-}
  body {
   margin: 0;
   padding: 0;  
@@ -10,7 +7,7 @@ header {
   background-color: #CE2829 ;
 }
 main{
-  background:#f6efe4 ;
+  background:#FAF7F2 ;
 }
 .header-content{
   display: flex;
@@ -75,22 +72,22 @@ h1{
 
 }
 .menu-title li {
-  margin: 15px;
-  width: calc(50% - 30px);
+  margin: 10px;
+  width: calc(50% - 20px);
   display: flex;
   align-items: center;
 }
 .menu-title li a{
-display: flex;
-align-items: center;
-text-decoration: none;
-font-family: Barlow;
-color: #292929;
-font-size: 18px;
-width: 100%;
-white-space: nowrap;
-overflow: hidden;
-text-overflow:ellipsis;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ font-family: Barlow;
+ color: #292929;
+ font-size: 18px;
+ width: 100%;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
 }
 .menu-title img {
   margin-right: 8px;
@@ -121,8 +118,8 @@ text-overflow:ellipsis;
   object-fit:cover;
 }
 
-#Hackathlon-menu-photo {
-  object-fit:scale-down;
+#Hackathlon-menu-img {
+  object-fit:contain;
   background-color: #292929;
   object-position:left ;
 }
@@ -130,8 +127,6 @@ text-overflow:ellipsis;
 #npmKurye-img{
   object-fit:cover;
   object-position: right bottom;
-  
-  
 }
 
 .announcement-label{
@@ -142,14 +137,152 @@ text-overflow:ellipsis;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
+  justify-content: flex-start;
   color: white;
   text-align: left;
+  padding: 30px;
+}
+.announcement-label h2 {
+  font-family: Quattrocento, serif;
+  font-size: 45px;
+}
+.announcement-label p {
+  font-family: barlow;
+  font-weight: 600;
+  font-size: 32px;
+}
+.siparis-ver {
+ width: 138px;
+ border-radius: 50px;
+ height: 48px;
+ color:#CE2829;
+ font-size: 12px;
+ font-family: barlow;
+ font-weight: 600;
+ border: none;
+ cursor: pointer;
+}
+#hızlıKurye p{
+  color:black;
 }
 
+.red-part{
+  color:#CE2829
+}
+.italic-text{
+  font-family: Satisfy, italic;
+  color:#CE2829;
+  font-size: 32px;
+  text-align: center;
+}
+.sub-heading h2{
+  font-family: barlow;
+  font-size: 42px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.engMenu-title ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding : 30px 50px;
+  flex-wrap: wrap;
+  background-color: #FAF7F2;
+}
+.engMenu-title li {
+  margin: 15px;
+  width: calc(50% - 30px);
+  display: flex;
+  align-items: center;
+  background-color:white;
+  border-radius: 50px;
+}
+.engMenu-title li:hover {
+  background-color: black;
+}
+.engMenu-title li a:hover{
+  color: white;
+}
+.engMenu-title li a{
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ font-family: Barlow;
+ color: #292929;
+ font-size: 18px;
+ width: 100%;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow:ellipsis;
+}
+.engMenu-title img {
+  margin-right: 8px;
+}
+.menu-item-content{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 12px;
+  margin-bottom:12px;
+  border-radius: 12px ;
+  
+}
+.menu-item-heading {
+  text-align: left;
+  padding-left: 25px;
+  font-family: barlow;
+  font-weight: 600;
+  font-size: 22px;
+}
+.menu-alt-item p{
+  text-align: justify;
+}
 
 footer{
   background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:30px;
+  padding:50px;
+}
+.company-info{
+  font-family: barlow;
+  font-weight: 400;
+}
+.quick-menu{
+  
+  font-family: barlow;
+  font-weight: 500;
+}
+.quick-menu ul a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Barlow;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.social-media {
+
+  font-family: barlow;
+  font-weight: 400;
+}
+.closing-label{
+  font-family: Barlow;
+  font-weight: 400;
+
 }
 

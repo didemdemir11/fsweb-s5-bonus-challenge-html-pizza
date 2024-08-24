@@ -63,32 +63,34 @@
           <div class="announcement-box-content">
             <img src="public\assets\iteration-2\cta\kart-1.png" class="announcement-image">
             <div class="announcement-label">
-              <h2>Özel Lezettus</h2>
+              <h2 id="lezzetus">Özel Lezzetus</h2>
               <p>Position:Absolute Acı Burger</p>
-              <button class="siparis-ver">Sipariş Ver</button>
+              <button class="siparis-ver">SİPARİŞ VER</button>
             </div>
           </div>
           
           <div class="announcement-box-content">
             <img src="public\assets\iteration-2\cta\kart-2.png" class="announcement-image" id="Hackathlon-menu-img">
-            <div class="announcement-label">
-              <h2>Hackatlon Burger Menü</h2>
-              <button class="siparis-ver">Sipariş Ver</button>
+            <div class="announcement-label" id="Hackathlon">
+              <p>Hackatlon Burger Menü</p>
+              <button class="siparis-ver">SİPARİŞ VER</button>
             </div>
           </div>
           
           <div class="announcement-box-content">
             <img src="public\assets\iteration-2\cta\kart-3.png" class="announcement-image" id="npmKurye-img">
-            <div class="announcement-label">
-              <h2>Çoooook hızlı npm gibi kurye</h2> 
-              <button class="siparis-ver">Sipariş Ver</button>
+            <div class="announcement-label" id="hızlıKurye">
+              <p><span class="red-part">Çoooook</span> hızlı npm gibi kurye</p> 
+              <button class="siparis-ver btn">SİPARİŞ VER</button>
             </div>
           </div>
         </div>
         
+        <div class="sub-heading">
+          <p class="italic-text">en çok paketlenen menüler</p>
+          <h2>Acıktıran Kodlara Doyuran Lezzetler</h2>
+        </div>
         
-        <p>en çok paketlenen menüler</p>
-        <h2>Acıktıran Kodlara Doyuran Lezzetler</h2>
         <nav class="engMenu-title">
           <ul>
             <li>
@@ -117,27 +119,36 @@
             </li>
           </ul>
         </nav>
-        <div class="menu-items container">
-          <img src="public\assets\iteration-2\pictures\food-1.png" alt="pizza1">
-          <p>Terminal Pizza</p>
-          <span class="rating-label">4.9</span>
-          <span class="comment-label">(200)</span>
-          <span class="price-label">60₺</span>
+        <div class="menu-item container">
+          <div class="menu-item-content">
+            <img src="public\assets\iteration-2\pictures\food-1.png" alt="pizza1">
+            <p class="menu-item-heading">Terminal Pizza</p>
+            <p class="menu-alt-item"> 
+              <span class="rating-label">4.9</span>
+              <span class="comment-label">(200)</span>
+              <span class="price-label">60₺</span>
+            </p>
+          </div>
+          <div class="menu-item-content">
+            <img src="public\assets\iteration-2\pictures\food-2.png" alt="pizza2">
+            <p class="menu-item-heading">Position Absolute Acı Pizza</p>
+            <p class="menu-alt-item"> 
+              <span class="rating-label">4.9</span>
+             <span class="comment-label">(200)</span>
+             <span class="price-label">60₺</span>
+            </p>
+          </div>
+          <div class="menu-item-content">
+            <img src="public\assets\iteration-2\pictures\food-3.png" alt="hamburger1">
+            <p class="menu-item-heading">useEffect Tavuklu Burger</p>
+            <p class="menu-alt-item"> 
+              <span class="rating-label">4.9</span>
+              <span class="comment-label">(200)</span>
+              <span class="price-label">60₺</span>
+            </p>
+          </div>
         </div>
-        <div class="menu-items container">
-          <img src="public\assets\iteration-2\pictures\food-2.png" alt="pizza2">
-          <p>Position Absolute Acı Pizza</p>
-          <span class="rating-label">4.9</span>
-          <span class="comment-label">(200)</span>
-          <span class="price-label">60₺</span>
-        </div>
-        <div class="menu-items container">
-          <img src="public\assets\iteration-2\pictures\food-3.png" alt="hamburger1">
-          <p>useEffect Tavuklu Burger</p>
-          <span class="rating-label">4.9</span>
-          <span class="comment-label">(200)</span>
-          <span class="price-label">60₺</span>
-        </div>
+        
       </section>
     </main>
     <footer>
@@ -158,7 +169,7 @@
         </div>
       </div>
       <div >
-        <nav class="quick-menü">
+        <nav class="quick-menu">
           <p>Hot Menu</p>
           <ul>
             <a href="">Terminal Pizza</a>
